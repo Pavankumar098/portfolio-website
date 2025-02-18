@@ -1,0 +1,79 @@
+@keyframes techGlow {
+  0% {
+    box-shadow: 0 0 5px rgba(255, 0, 0, 0.8);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.8), 
+                0 0 40px rgba(255, 0, 0, 0.6);
+  }
+  100% {
+    box-shadow: 0 0 5px rgba(255, 0, 0, 0.8);
+  }
+}
+
+@keyframes weaponFire {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes bombExplode {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.5);
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes suitActivate {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(-10px);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.button-tech {
+  animation: techGlow 2s infinite;
+  transition: all 0.3s ease;
+}
+
+.button-tech:hover {
+  animation: techGlow 1s infinite;
+  transform: scale(1.1);
+}
+
+.button-weapon {
+  animation: weaponFire 1s infinite;
+}
+
+.button-bomb {
+  animation: bombExplode 1.5s infinite;
+}
+
+.button-suit {
+  animation: suitActivate 1.2s infinite;
+}

@@ -1,0 +1,140 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  color: #00FFFF;
+  margin: 0;
+  padding: 0;
+  background: #000000;
+}
+
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background: rgba(0, 0, 0, 0.7);
+  color: #00FFFF;
+  padding: 30px 0;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.8),
+              0 0 30px rgba(0, 255, 255, 0.6);
+  margin: 20px 0;
+  border: 1px solid rgba(0, 255, 255, 0.3);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.8rem;
+  font-weight: 600;
+  color: #00FFFF;
+  text-shadow: 0 0 10px rgba(0, 255, 255, 0.8);
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav a {
+  color: #00FFFF;
+  text-decoration: none;
+  font-size: 1.1rem;
+  padding: 8px 16px;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+  text-shadow: 0 0 5px rgba(0, 255, 255, 0.8);
+}
+
+nav a:hover {
+  background: rgba(0, 255, 255, 0.1);
+  color: #FFFFFF;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.8),
+              0 0 30px rgba(0, 255, 255, 0.6);
+}
+
+section {
+  margin: 40px 0;
+  padding: 30px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.8),
+              0 0 30px rgba(0, 255, 255, 0.6);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid rgba(0, 255, 255, 0.2);
+}
+
+section:hover {
+  transform: translateY(-5px);
+}
+
+h2 {
+  color: #00FFFF;
+  margin-bottom: 30px;
+  font-size: 2.2rem;
+  font-weight: 600;
+  text-shadow: 0 0 10px rgba(0, 255, 255, 0.8);
+}
+
+.education-item, .project {
+  margin-bottom: 30px;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.8),
+              0 0 20px rgba(0, 255, 255, 0.6);
+  border: 1px solid rgba(0, 255, 255, 0.1);
+}
+
+.skills-container ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills-container li {
+  display: inline-block;
+  background: linear-gradient(145deg, rgba(0, 0, 0, 0.3), rgba(0, 255, 255, 0.1));
+  color: #00FFFF;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 25px;
+  box-shadow: 0 0 8px rgba(0, 255, 255, 0.8),
+              0 0 16px rgba(0, 255, 255, 0.6);
+  font-weight: 500;
+  text-shadow: 0 0 5px rgba(0, 255, 255, 0.8);
+}
+
+.contact-info p {
+  margin: 15px 0;
+  font-size: 1.1rem;
+}
+
+.contact-info a {
+  color: #00FFFF;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 5px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  text-shadow: 0 0 5px rgba(0, 255, 255, 0.8);
+}
+
+.contact-info a:hover {
+  background: rgba(0, 255, 255, 0.1);
+  color: #FFFFFF;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.8),
+              0 0 30px rgba(0, 255, 255, 0.6);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
